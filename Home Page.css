@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit';
+}
+
+/* Header */
+.Header {
+    width: 100%; 
+    height: 72px; 
+    background: #49111C;
+}
+
+.LogoCircle1 {
+    width: 60px; 
+    height: 60px; 
+    left: 45px; 
+    top: 6px; 
+    position: absolute;
+}
+
+.AboutUsTab {
+    width: 113.91px; 
+    left: 274px; 
+    top: 24px; 
+    position: absolute; 
+    color: #F2F4F3;
+    font-size: 20px; 
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.OurOutletsTab {
+    width: 144.84px; 
+    left: 501.81px; 
+    top: 24px; 
+    font-size: 20px;
+    position: absolute; 
+    color: #F2F4F3;  
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TestimonialsTab {
+    width: 154.69px; 
+    left: 760.56px; 
+    top: 24px; 
+    font-size: 20px;
+    position: absolute; 
+    color: #F2F4F3;  
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ContactUsTab {
+    width: 137.81px; 
+    left: 1029.38px; 
+    top: 24px; 
+    font-size: 20px;
+    position: absolute; 
+    color: #F2F4F3;  
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Opening Section */
+.Opening {
+    width: 100%; 
+    height: 480px; 
+    background: #F2F4F3;
+}
+
+.Slider-Image {
+    width: 100%; 
+    height: 480px; 
+    left: 0px; 
+    top: 0px; 
+    position: relative;
+    opacity: 40%;
+    object-fit: cover;
+}
+
+.Opening-Text {
+    left: 239px; 
+    top: 150px; 
+    position: absolute; 
+    text-align: center; 
+    color: #5E503F; 
+    font-size: 95px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+/* About Us Section */
+.AboutUs {
+    width: 100%; 
+    height: 575px; 
+    background: #F2F4F3;
+    position: relative;
+}
+
+.Group12 {
+    width: 926px; 
+    height: 484px; 
+    left: 300px; 
+    top: 57px; 
+    position: absolute;
+}
+
+.About-Us-Text {
+    width: 926px; 
+    height: 380px; 
+    top: 104px; 
+    position: absolute; 
+    text-align: center; 
+    color: #A9927D; 
+    font-size: 30px; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.About-Us-Heading {
+    left: 341px; 
+    top: 0px; 
+    position: absolute; 
+    text-align: center; 
+    color: #5E503F; 
+    font-size: 50px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+/* Our Outlets  */
+.Outlets {
+    width: 100%; 
+    height: 579px; 
+    background: #F2F4F3;
+}
+
+.Group11 {
+    width: 883px; 
+    height: 512px; 
+    left: 279px; 
+    top: 27px; 
+    position: relative;
+}
+
+.Maps {
+    width: 412px; 
+    height: 393px; 
+    left: 0px; 
+    top: 119px; 
+    position: absolute;
+    border: 0;
+}
+
+.Rectangle3 {
+    width: 400px; 
+    height: 59px; 
+    left: 483px; 
+    top: 199px;
+    font-size: 30px;
+    position: absolute; 
+    text-align: center;
+    background: rgba(169, 146, 125, 0.50); 
+    border-radius: 30px;
+    border: none;
+}
+
+.State {
+    left: 512px; 
+    top: 210px; 
+    position: absolute;
+    border: none;
+    text-align: justify; 
+    /* color: black;  */
+    font-size: 30px; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.Rectangle4 {
+    width: 400px; 
+    height: 59px; 
+    left: 483px; 
+    top: 291px; 
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    background: rgba(169, 146, 125, 0.50); 
+    border-radius: 30px;
+    border: none;
+}
+
+.Rectangle5 {
+    width: 200px; 
+    height: 59px; 
+    left: 583px; 
+    top: 406px; 
+    position: absolute; 
+    background: #A9927D; 
+    border-radius: 30px;
+    border: none;
+}
+
+.City {
+    left: 511px; 
+    top: 302px; 
+    position: absolute; 
+    text-align: justify; 
+    color: black; 
+    font-size: 30px;
+    border: none; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.Submit {
+    left: 637px; 
+    top: 417px; 
+    position: absolute; 
+    text-align: justify; 
+    color: black; 
+    font-size: 30px; 
+    font-weight: 520;
+    background: #A9927D; 
+    z-index: 1; 
+    border: none;
+    word-wrap: break-word;
+}
+
+.OurOutlets {
+    left: 272px; 
+    top: 0px; 
+    position: absolute; 
+    text-align: center; 
+    color: #5E503F; 
+    font-size: 50px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+/* Testimonials */
+#clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f4f3;
+    /* padding: 80px 0px;
+    margin: 40px 0px; */
+}
+.client-heading h3{
+    left: 272px; 
+    top: 0px; 
+    /* position: absolute;  */
+    text-align: center; 
+    color: #5E503F; 
+    font-size: 50px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+.client-box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 90%;
+    margin-top: 40px;
+}
+.client-box{
+    background-color: #f2f4f3;
+    border: 2.5px solid #5E503F;
+    padding: 30px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.client-profile{
+    display: flex;
+    align-items: center;
+}
+.client-profile img{
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.profile-text strong{
+    color: #5E503F;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.profile-text span{
+    color: #5E503F;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.client-box p{
+    color: #A9927D;
+}
+
+/* Contact Us */
+.ContactUs {
+    width: 100%;
+    height: 774px; 
+    background: #F2F4F3;
+}
+
+.Group14 {
+    width: 1192px; 
+    height: 731px; 
+    left: 114px; 
+    top: 0px; 
+    position: relative;
+}
+
+.GetInTouch {
+    left: 435px; 
+    top: 0px; 
+    position: absolute; 
+    text-align: justify; 
+    color: #5E503F; 
+    font-size: 50px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.Group10 {
+    width: 437px; 
+    height: 641px; 
+    left: 755px; 
+    top: 90px; 
+    position: absolute;
+}
+
+.Get-In-Touch-Text {
+    width: 566px; 
+    left: 0px; 
+    top: 176px; 
+    position: absolute; 
+    text-align: justify;
+}
+
+.Get-In-Touch-Span {
+    color: #A9927D; 
+    font-size: 35px; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.Email {
+    font-size: 35px; 
+    font-weight: 400; 
+    text-decoration: underline; 
+    word-wrap: break-word;
+}
+
+.Email a{
+    color: #0A0908; 
+}
+
+#Contact-Form {
+    width: 437px; 
+    height: 641px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #A9927D; 
+    border-radius: 30px;
+}
+
+.Rectangle6 {
+    width: 372px; 
+    height: 59px; 
+    left: 32px; 
+    top: 45px; 
+    position: absolute; 
+    background: rgba(242, 244, 243, 0.50); 
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+}
+
+.Rectangle7 {
+    width: 372px; 
+    height: 59px; 
+    left: 32px; 
+    top: 146px; 
+    position: absolute; 
+    background: rgba(242, 244, 243, 0.50); 
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+}
+
+.Rectangle8 {
+    width: 372px; 
+    height: 59px; 
+    left: 32px; 
+    top: 247px; 
+    position: absolute; 
+    background: rgba(242, 244, 243, 0.50); 
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+}
+
+.Rectangle9 {
+    width: 372px; 
+    height: 177px; 
+    left: 32px; 
+    top: 348px; 
+    position: absolute; 
+    background: rgba(242, 244, 243, 0.50); 
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+}
+
+.Submit1 {
+    width: 204px; 
+    height: 59px; 
+    left: 116px; 
+    top: 559px; 
+    position: absolute; 
+    text-align: center;
+    background: #F2F4F3; 
+    border-radius: 30px;
+    font-size: 30px;
+    border: none;
+    font-weight: 520;
+}
+
+/* Footer */
+.Footer {
+    width: 100%; 
+    height: 411px; 
+    background: #49111C;
+}
+
+.Group15 {
+    width: 1009px; 
+    height: 318px; 
+    left: 200px; 
+    top: 57px; 
+    position: relative;
+}
+
+.Group8 {
+    width: 428px; 
+    height: 112px; 
+    left: 581px; 
+    top: 36px; 
+    position: absolute;
+}
+
+.Group7 {
+    width: 500px; 
+    height: 112px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.AboutUsFooter {
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: #f2f4f3; 
+    font-size: 30px; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.ContactUsFooter {
+    left: 272px; 
+    top: 74px; 
+    position: absolute; 
+    color: #f2f4f3; 
+    font-size: 30px; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.OurOutletsFooter {
+    left: 272px; 
+    top: 0px; 
+    position: absolute; 
+    color: #f2f4f3; 
+    font-size: 30px; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.TestimonialsFooter {
+    left: 0px; 
+    top: 74px; 
+    position: absolute; 
+    color: #f2f4f3; 
+    font-size: 30px; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.Line1 {
+    width: 224.50px; 
+    height: 0px; 
+    left: 370px; 
+    top: 0px; 
+    position: absolute; 
+    transform: rotate(90deg); 
+    transform-origin: 0 0; 
+    border: 1.25px #F2F4F3 solid;
+}
+
+.Copyright {
+    left: 224px; 
+    top: 290px; 
+    position: absolute; 
+    color: #f2f4f3; 
+    font-size: 22px; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.Group5 {
+    width: 207px; 
+    height: 193px; 
+    left: 0px; 
+    top: 17px; 
+    position: absolute;
+}
+
+.LogoCircle2 {
+    width: 150px; 
+    height: 150px; 
+    left: 28px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.Group4 {
+    width: 207px; 
+    height: 30px; 
+    left: 0px; 
+    top: 163px; 
+    position: absolute;
+}
+
+.Instagram {
+    width: 30px; 
+    height: 30px; 
+    padding: 2.50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.bi-instagram {
+    width: 25px; 
+    height: 25px; 
+    color: #f2f4f3;
+}
+
+.Twitter {
+    width: 30px; 
+    height: 30px; 
+    padding-top: 3.30px; 
+    padding-bottom: 3.30px; 
+    padding-left: 1.24px; 
+    padding-right: 1.25px; 
+    left: 59px; 
+    top: 0px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.bi-twitter {
+    width: 27.51px; 
+    height: 23.40px;
+    background: none; 
+    color: #F2F4F3;
+}
+
+.Whatsapp {
+    width: 30px; 
+    height: 30px; 
+    padding-top: 2.47px; 
+    padding-bottom: 2.50px; 
+    padding-left: 2.50px; 
+    padding-right: 2.62px; 
+    left: 118px; top: 0px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.bi-whatsapp {
+    width: 24.88px; 
+    height: 25.03px; 
+    background: none;
+    color: #F2F4F3;
+}
+
+.Facebook {
+    width: 30px; 
+    height: 30px; 
+    padding-top: 2.50px; 
+    padding-bottom: 2.50px; 
+    padding-left: 8.26px; 
+    padding-right: 8.75px; 
+    left: 177px; 
+    top: 0px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.bi-facebook {
+    /* width: 12.99px;  */
+    height: 25px; 
+    color: #F2F4F3;
+    background: none;
+}
