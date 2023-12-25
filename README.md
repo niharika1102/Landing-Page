@@ -1,4 +1,4 @@
-# Landing-Page
+# Landing Page
 This restaurant website landing page has been developed using HTML and CSS. I have tried to include as many functionalities as possible. Any suggestions to make this project better are most welcome.
 
 The design of the webpage has been created on Figma. The link for the Figma file is attached below. 
